@@ -12,3 +12,48 @@ img,
 video {
   display: block;
 }
+
+body {
+  padding: 50px;
+}
+
+.calendrier {
+  position: absolute;
+  font-family: "open sans";
+  color: white;
+  width: fit-content;
+  display: flex;
+  background: #ff844c;
+  border-radius: 20px;
+  padding: 10px;
+  line-height: 24px;
+}
+
+.jour {
+  display: flex;
+  gap: 25px;
+  text-align: center;
+  flex-direction: column;
+  padding: 18px;
+}
+
+.numero {
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.jour-semaine {
+  font-weight: 300;
+  font-size: 23px;
+  color: #ffffff99;
+}
+
+.aujourdhui {
+  background: white;
+  color: black;
+  border-radius: 24px;
+}
+
+.aujourdhui .jour-semaine {
+  color: #00000099;
+}
